@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "animation-duration"
   ],
   "css-animation-duration": {
     "type": "git",

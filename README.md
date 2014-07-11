@@ -33,7 +33,7 @@ or download the css on github and include in your project.
   .a-dur11 { animation-duration: 8s;  }
   .a-dur12 { animation-duration: 12s;  }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .a-dur0-ns   { animation-duration: 0; }
   .a-dur1-ns   { animation-duration: .1s; }
   .a-dur2-ns   { animation-duration: .2s; }
@@ -49,7 +49,7 @@ or download the css on github and include in your project.
   .a-dur12-ns  { animation-duration: 12s;  }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .a-dur0-m   { animation-duration: 0; }
   .a-dur1-m   { animation-duration: .1s; }
   .a-dur2-m   { animation-duration: .2s; }
@@ -65,7 +65,7 @@ or download the css on github and include in your project.
   .a-dur12-m  { animation-duration: 12s;  }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .a-dur0-l   { animation-duration: 0; }
   .a-dur1-l   { animation-duration: .1s; }
   .a-dur2-l   { animation-duration: .2s; }

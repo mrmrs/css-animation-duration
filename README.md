@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-animation-duration)
 ## File Size
 
 2.3K animation-duration.css
-1.8K animation-duration.min.css
+1.8K animation-duration.min.css 
+296B minified and gzipped
 
 ## The Code
 ```

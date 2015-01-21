@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-animation-duration)
 ## File Size
 
 2.3K animation-duration.css
-1.8K animation-duration.min.css 
+1.8K animation-duration.min.css
 296B minified and gzipped
 
 ## The Code
@@ -97,7 +97,7 @@ View on [npm](https://www.npmjs.org/package/css-animation-duration)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

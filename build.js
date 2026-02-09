@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-animation-duration.css');
+const srcFile = path.join(__dirname, 'src', 'animation-duration.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-animation-duration.css',
+  filename: 'animation-duration.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-animation-duration.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'animation-duration.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-animation-duration.css',
+  filename: 'animation-duration.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-animation-duration.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'animation-duration.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-animation-duration.css     ${unminified.length} bytes`);
-console.log(`  dist/css-animation-duration.min.css ${minified.length} bytes`);
+console.log(`  dist/animation-duration.css     ${unminified.length} bytes`);
+console.log(`  dist/animation-duration.min.css ${minified.length} bytes`);

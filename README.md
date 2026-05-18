@@ -6,8 +6,8 @@ Functional CSS for animation-duration
 
 | File | Size |
 |------|------|
-| `dist/animation-duration.css` | 4974 bytes |
-| `dist/animation-duration.min.css` | 3935 bytes (476 Gzipped) |
+| `dist/animation-duration.css` | 2501 bytes |
+| `dist/animation-duration.min.css` | 1785 bytes (289 Gzipped) |
 
 ## Install
 
@@ -39,78 +39,58 @@ npm install css-animation-duration
 
 | Class   | Value                    |
 |---------|--------------------------|
-| `.a-duration0` | `animation-duration: 0;` |
-| `.a-duration1` | `animation-duration: var(--duration-1);` |
-| `.a-duration2` | `animation-duration: var(--duration-2);` |
-| `.a-duration3` | `animation-duration: var(--duration-3);` |
-| `.a-duration4` | `animation-duration: var(--duration-4);` |
-| `.a-duration5` | `animation-duration: var(--duration-5);` |
-| `.a-duration6` | `animation-duration: var(--duration-6);` |
-| `.a-duration7` | `animation-duration: var(--duration-7);` |
-| `.a-duration8` | `animation-duration: var(--duration-8);` |
-| `.a-duration9` | `animation-duration: var(--duration-9);` |
-| `.a-duration10` | `animation-duration: var(--duration-10);` |
-| `.a-duration11` | `animation-duration: var(--duration-11);` |
-| `.a-duration12` | `animation-duration: var(--duration-12);` |
-| `.a-duration-inherit` | `animation-duration: inherit;` |
-| `.a-duration-initial` | `animation-duration: initial;` |
-| `.a-duration-revert` | `animation-duration: revert;` |
-| `.a-duration-revert-layer` | `animation-duration: revert-layer;` |
-| `.a-duration-unset` | `animation-duration: unset;` |
-| `.a-duration0-s` | `animation-duration: 0;` |
-| `.a-duration1-s` | `animation-duration: var(--duration-1);` |
-| `.a-duration2-s` | `animation-duration: var(--duration-2);` |
-| `.a-duration3-s` | `animation-duration: var(--duration-3);` |
-| `.a-duration4-s` | `animation-duration: var(--duration-4);` |
-| `.a-duration5-s` | `animation-duration: var(--duration-5);` |
-| `.a-duration6-s` | `animation-duration: var(--duration-6);` |
-| `.a-duration7-s` | `animation-duration: var(--duration-7);` |
-| `.a-duration8-s` | `animation-duration: var(--duration-8);` |
-| `.a-duration9-s` | `animation-duration: var(--duration-9);` |
-| `.a-duration10-s` | `animation-duration: var(--duration-10);` |
-| `.a-duration11-s` | `animation-duration: var(--duration-11);` |
-| `.a-duration12-s` | `animation-duration: var(--duration-12);` |
-| `.a-duration-inherit-s` | `animation-duration: inherit;` |
-| `.a-duration-initial-s` | `animation-duration: initial;` |
-| `.a-duration-revert-s` | `animation-duration: revert;` |
-| `.a-duration-revert-layer-s` | `animation-duration: revert-layer;` |
-| `.a-duration-unset-s` | `animation-duration: unset;` |
-| `.a-duration0-m` | `animation-duration: 0;` |
-| `.a-duration1-m` | `animation-duration: var(--duration-1);` |
-| `.a-duration2-m` | `animation-duration: var(--duration-2);` |
-| `.a-duration3-m` | `animation-duration: var(--duration-3);` |
-| `.a-duration4-m` | `animation-duration: var(--duration-4);` |
-| `.a-duration5-m` | `animation-duration: var(--duration-5);` |
-| `.a-duration6-m` | `animation-duration: var(--duration-6);` |
-| `.a-duration7-m` | `animation-duration: var(--duration-7);` |
-| `.a-duration8-m` | `animation-duration: var(--duration-8);` |
-| `.a-duration9-m` | `animation-duration: var(--duration-9);` |
-| `.a-duration10-m` | `animation-duration: var(--duration-10);` |
-| `.a-duration11-m` | `animation-duration: var(--duration-11);` |
-| `.a-duration12-m` | `animation-duration: var(--duration-12);` |
-| `.a-duration-inherit-m` | `animation-duration: inherit;` |
-| `.a-duration-initial-m` | `animation-duration: initial;` |
-| `.a-duration-revert-m` | `animation-duration: revert;` |
-| `.a-duration-revert-layer-m` | `animation-duration: revert-layer;` |
-| `.a-duration-unset-m` | `animation-duration: unset;` |
-| `.a-duration0-l` | `animation-duration: 0;` |
-| `.a-duration1-l` | `animation-duration: var(--duration-1);` |
-| `.a-duration2-l` | `animation-duration: var(--duration-2);` |
-| `.a-duration3-l` | `animation-duration: var(--duration-3);` |
-| `.a-duration4-l` | `animation-duration: var(--duration-4);` |
-| `.a-duration5-l` | `animation-duration: var(--duration-5);` |
-| `.a-duration6-l` | `animation-duration: var(--duration-6);` |
-| `.a-duration7-l` | `animation-duration: var(--duration-7);` |
-| `.a-duration8-l` | `animation-duration: var(--duration-8);` |
-| `.a-duration9-l` | `animation-duration: var(--duration-9);` |
-| `.a-duration10-l` | `animation-duration: var(--duration-10);` |
-| `.a-duration11-l` | `animation-duration: var(--duration-11);` |
-| `.a-duration12-l` | `animation-duration: var(--duration-12);` |
-| `.a-duration-inherit-l` | `animation-duration: inherit;` |
-| `.a-duration-initial-l` | `animation-duration: initial;` |
-| `.a-duration-revert-l` | `animation-duration: revert;` |
-| `.a-duration-revert-layer-l` | `animation-duration: revert-layer;` |
-| `.a-duration-unset-l` | `animation-duration: unset;` |
+| `.a-dur0` | `animation-duration: 0;` |
+| `.a-dur1` | `animation-duration: .1s;` |
+| `.a-dur2` | `animation-duration: .2s;` |
+| `.a-dur3` | `animation-duration: .4s;` |
+| `.a-dur4` | `animation-duration: .5s;` |
+| `.a-dur5` | `animation-duration: .7s;` |
+| `.a-dur6` | `animation-duration: 1s;` |
+| `.a-dur7` | `animation-duration: 1.5s;` |
+| `.a-dur8` | `animation-duration: 2s;` |
+| `.a-dur9` | `animation-duration: 2.5s;` |
+| `.a-dur10` | `animation-duration: 4s;` |
+| `.a-dur11` | `animation-duration: 8s;` |
+| `.a-dur12` | `animation-duration: 12s;` |
+| `.a-dur0-s` | `animation-duration: 0;` |
+| `.a-dur1-s` | `animation-duration: .1s;` |
+| `.a-dur2-s` | `animation-duration: .2s;` |
+| `.a-dur3-s` | `animation-duration: .4s;` |
+| `.a-dur4-s` | `animation-duration: .5s;` |
+| `.a-dur5-s` | `animation-duration: .7s;` |
+| `.a-dur6-s` | `animation-duration: 1s;` |
+| `.a-dur7-s` | `animation-duration: 1.5s;` |
+| `.a-dur8-s` | `animation-duration: 2s;` |
+| `.a-dur9-s` | `animation-duration: 2.5s;` |
+| `.a-dur10-s` | `animation-duration: 4s;` |
+| `.a-dur11-s` | `animation-duration: 8s;` |
+| `.a-dur12-s` | `animation-duration: 12s;` |
+| `.a-dur0-m` | `animation-duration: 0;` |
+| `.a-dur1-m` | `animation-duration: .1s;` |
+| `.a-dur2-m` | `animation-duration: .2s;` |
+| `.a-dur3-m` | `animation-duration: .4s;` |
+| `.a-dur4-m` | `animation-duration: .5s;` |
+| `.a-dur5-m` | `animation-duration: .7s;` |
+| `.a-dur6-m` | `animation-duration: 1s;` |
+| `.a-dur7-m` | `animation-duration: 1.5s;` |
+| `.a-dur8-m` | `animation-duration: 2s;` |
+| `.a-dur9-m` | `animation-duration: 2.5s;` |
+| `.a-dur10-m` | `animation-duration: 4s;` |
+| `.a-dur11-m` | `animation-duration: 8s;` |
+| `.a-dur12-m` | `animation-duration: 12s;` |
+| `.a-dur0-l` | `animation-duration: 0;` |
+| `.a-dur1-l` | `animation-duration: .1s;` |
+| `.a-dur2-l` | `animation-duration: .2s;` |
+| `.a-dur3-l` | `animation-duration: .4s;` |
+| `.a-dur4-l` | `animation-duration: .5s;` |
+| `.a-dur5-l` | `animation-duration: .7s;` |
+| `.a-dur6-l` | `animation-duration: 1s;` |
+| `.a-dur7-l` | `animation-duration: 1.5s;` |
+| `.a-dur8-l` | `animation-duration: 2s;` |
+| `.a-dur9-l` | `animation-duration: 2.5s;` |
+| `.a-dur10-l` | `animation-duration: 4s;` |
+| `.a-dur11-l` | `animation-duration: 8s;` |
+| `.a-dur12-l` | `animation-duration: 12s;` |
 
 ### Responsive
 
@@ -122,7 +102,7 @@ Responsive variants are available for each class with the following suffixes:
 | `-m`   | `min-width: 48em`        |
 | `-l`   | `min-width: 96em`        |
 
-Example: `.a-duration0-m` applies the property at the medium breakpoint and above.
+Example: `.a-dur0-m` applies the property at the medium breakpoint and above.
 
 ## Building
 
